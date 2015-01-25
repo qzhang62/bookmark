@@ -1,0 +1,11 @@
+<?php
+require_once('class.php');
+if(isset($_GET['filename'])){
+	if(!file_exists(DIR.$_GET['filename'])){
+		$fh=fopen(DIR.$_GET['filename'],'w');
+		fclose($fh);
+		setcookie('filename',$_GET['filename'],time()+840000);	
+	}
+	header("Location:index.php");
+}
+?>

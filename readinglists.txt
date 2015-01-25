@@ -1,0 +1,170 @@
+﻿F::::Stapede User Guide::::https://www.tacc.utexas.edu/user-services/user-guides/stampede-user-guide
+F::::Shell Bookmark::::https://github.com/huyng/bashmarks
+F::::vasp supporting site::::http://cms.mpi.univie.ac.at/vasp-forum/forum_viewforum.php?4.900
+F::::VTSTTools Forum::::http://theory.cm.utexas.edu/forum/viewforum.php?f=2&sid=085202175ae22e7ba84ea6457d25ef95
+T::::LaTeX::::http://www.latex-project.org/
+F::::Vasp Tools::::http://www3.nd.edu/~cwu4/about/about.html
+F::::xiaomuchong::::http://emuch.net/bbs/
+T::::三言二拍::::http://www.360doc.com/content/10/0514/20/379198_27608270.shtml
+F::::vasp wiki::::http://cms.mpi.univie.ac.at/wiki/index.php/Main_page
+F::::bootStrap::::http://getbootstrap.com/getting-started/
+T::::DFT paper::::http://www.pnas.org.proxy.cc.uic.edu/content/108/3/937.full
+T::::link run PHP script::::http://stackoverflow.com/questions/1280767/how-do-i-run-php-code-when-a-user-clicks-on-a-link
+T::::Ajax Tutorial::::http://www.w3schools.com/ajax/default.ASP
+F::::php regx::::http://php.net/manual/en/function.preg-replace.phpF::::css tricks::::http://css-tricks.com/
+T::::css tricks::::http://css-tricks.com/
+T::::ajax_live_search::::http://www.w3schools.com/php/php_ajax_livesearch.asp
+F::::google interview question::::http://www.glassdoor.com/Interview/Google-Interview-Questions-E9079.htm
+F::::python fast download::::http://stackoverflow.com/questions/6909741/python-faster-downloading-of-500-webpages-loop
+F::::web spider::::https://github.com/search?l=Python&q=web+spider&ref=searchresults&type=Repositories
+F::::image spider::::https://github.com/zhijie/image_downloader
+F::::baidu image downloader::::https://github.com/zhaoliangwa/baidu-image
+T::::free-css::::http://www.free-css.com/
+T::::ul li style::::http://www.cssnewbie.com/example/style-unordered-lists/
+T::::css li examples::::http://designshack.net/articles/css/5-simple-and-practical-css-list-styles-you-can-copy-and-paste/
+T::::CSS Zen::::http://www.csszengarden.com/
+T::::CSS Form::::http://www.sanwebe.com/2013/10/css-html-form-styles
+T::::php text editor::::http://www.heckdesigns.com/tutorials/tutorial-simple-php-text-editor/
+T::::C++ interview questions::::http://www.careerride.com/C++-Interview-questions-Answer.aspx
+F::::Python interview question::::http://careerride.com/python-interview-questions.aspx
+F::::C++ mini-projects::::http://www.codeincodeblock.com/2012/04/list-of-top-ten-college-mini-projects.html
+F::::Python Mini Project::::http://knightlab.northwestern.edu/2014/06/05/five-mini-programming-projects-for-the-python-beginner/
+F::::MySQL sample database::::http://dev.mysql.com/doc/employee/en/employees-installation.html
+T::::Shell interview question::::https://www.udemy.com/blog/unix-shell-scripting-interview-questions/
+T::::Linux interview questions::::http://career.guru99.com/top-50-linux-interview-questions/
+T::::Data Structure Interview Question::::http://www.indiabix.com/technical/data-structures/
+T::::algorithm interview::::http://javarevisited.blogspot.com/2013/03/top-15-data-structures-algorithm-interview-questions-answers-java-programming.html
+T::::operating system interview::::http://career.guru99.com/top-50-operating-system-interview-questions/
+T::::YongZheng::::http://www.iqiyi.com/v_19rrifuk0w.html#curid=737435_6e1cff049cc8483e946a3ff8752544bb
+F::::shell image downloader::::https://github.com/CptnClaw/google-images-downloader
+T::::Shell image downloader::::https://github.com/codeTom/gimaged
+T::::computational catalysis book::::http://vufind.carli.illinois.edu/all/vf/Record/14265658/Description
+T::::OSU application::::https://cbe.osu.edu/graduate/frequently-asked-questions#Q9
+T::::colorado application::::http://www.colorado.edu/chbe/graduate-program/prospective-graduate-students
+T::::rename multiple files::::http://www.cyberciti.biz/tips/renaming-multiple-files-at-a-shell-prompt.html
+T::::wget::::http://www.linuxjournal.com/content/downloading-entire-web-site-wget
+T::::wget::::http://www.linuxquestions.org/questions/linux-general-1/advanced-wget-with-google-images-494674/
+T::::javascript interview questions::::http://www.toptal.com/javascript/interview-questions#.
+T::::ajax interview questions::::http://www.itechaleart.com/2013/06/top-50-ajax-interview-questions-answers.html
+T::::json interview question::::http://www.globalguideline.com/interview_questions/Questions.php?sc=JSON
+T::::css interview questsions::::http://www.techrepublic.com/blog/software-engineer/css-interview-questions-and-answers/
+T::::jquery interview questions::::http://careerride.com/jQuery-Interview-Questions.aspx
+T::::tricky javascript question::::https://www.interviewcake.com/question/js-whats-wrong
+F::::interview cake::::https://www.interviewcake.com/
+F::::one front end code question::::http://www.careercup.com/question?id=6172012607176704
+T::::front end interview::::https://github.com/darcyclarke/Front-end-Developer-Interview-Questions
+T::::front end developer  baseline::::http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/
+F::::jquery fundamental::::http://jqfundamentals.com/
+T::::introducation to algorithms::::http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/
+T::::coding interview::::http://download.springer.com/static/pdf/994/bok%253A978-1-4302-4762-3.pdf?auth66=1408638780_b7f85bedae762bba360677eaf0bd2301&ext=.pdf
+T::::javascript temp::::http://stackoverflow.com/questions/1496347/enter-key-trap-event-in-firefox
+T::::javascript temp::::http://www.asquare.net/javascript/tests/KeyCode.html
+T::::javascript temp::::http://stackoverflow.com/questions/1695715/javascript-focus-in-firefox
+T::::javascript temp::::http://www.w3schools.com/jsref/event_onkeypress.asp
+T::::batch::::http://stackoverflow.com/questions/162291/how-to-check-if-a-process-is-running-via-a-batch-script
+F::::js media player::::http://www.sitepoint.com/10-jquery-html5-players/
+T::::scope in javascipt::::http://www.digital-web.com/articles/scope_in_javascript/
+T::::reset css::::http://meyerweb.com/eric/tools/css/reset/
+T::::wget::::http://www.yourownlinux.com/2013/10/linux-wget-command-tutorial-with-examples.html
+T::::菜根谭::::http://yuedu.baidu.com/ebook/17033cf50975f46527d3e1b5?f=read
+T::::acm online judge::::http://uva.onlinejudge.org/
+T::::IIFE::::http://benalman.com/news/2010/11/immediately-invoked-function-expression/
+T::::reg get string::::http://stackoverflow.com/questions/19737675/shell-script-how-to-extract-string-using-regular-expressions
+T::::javascript closure::::http://skilldrick.co.uk/2011/04/closures-explained-with-javascript/
+T::::javascript function scope::::https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope
+T::::javascript name function::::http://kangax.github.io/nfe/
+T::::javascript module pattern::::http://www.adequatelygood.com/JavaScript-Module-Pattern-In-Depth.html
+T::::EMCA functions::::http://dmitrysoshnikov.com/ecmascript/chapter-5-functions/#question-about-surrounding-parentheses
+T::::brief javascript closure introduction ::::http://skilldrick.co.uk/2010/11/a-brief-introduction-to-closures/
+T::::why javascript awesome::::http://skilldrick.co.uk/2010/09/why-javascript-is-awesome/
+T::::talk on javascript::::http://stackoverflow.com/questions/11246/best-resources-to-learn-javascript/1531738#1531738
+T::::php post request::::http://www.lornajane.net/posts/2010/three-ways-to-make-a-post-request-from-php
+T::::Illinois rules of road::::http://www.cyberdriveillinois.com/publications/pdf_publications/dsd_a112.pdf
+F::::debug javascript chrome::::https://developer.chrome.com/devtools/docs/javascript-debugging
+T::::what really happens when you navigate to a url::::http://igoro.com/archive/what-really-happens-when-you-navigate-to-a-url/
+T::::prevent of FOUC::::http://www.techrepublic.com/blog/web-designer/how-to-prevent-flash-of-unstyled-content-on-your-websites/
+F::::html5 rocks - a google project::::http://www.html5rocks.com/en/
+T::::Long-polling::::http://stackoverflow.com/questions/11077857/what-are-long-polling-websockets-server-sent-events-sse-and-comet
+F::::Template website::::http://dromaeo.com/
+T::::a slide show::::http://css-tricks.com/snippets/jquery/simple-auto-playing-slideshow/
+T::::css: absolute relative::::http://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/
+F::::Jquery slider::::http://amazingslider.com/examples/jquery-slider-with-multiple-rows-thumbnails/
+T::::slide show css::::http://themarklee.com/2013/10/16/simple-crossfading-slideshow-css/
+T::::10 ways to speed up your websites::::http://blog.crazyegg.com/2013/12/11/speed-up-your-website/
+T::::Serving XHTML as application/xhtml+xml::::http://www.bigbeeconsultants.co.uk/blog/serving-xhtml-applicationxhtmlxml
+T::::keycode test page::::http://www.asquare.net/javascript/tests/KeyCode.html
+T::::C++ algorithm sort::::http://www.cplusplus.com/reference/algorithm/sort/
+T::::css reset pros and cons::::http://www.vanseodesign.com/css/css-resets-pros-cons/
+F::::RefeWorks Tutorial::::https://www.youtube.com/playlist?list=PLC1C8A11EB1895C3B
+F::::scientific writing::::http://wenku.baidu.com/link?url=oNbPkJawjhkpjeRX3vzp6X7XjYpdoiKXNBzQr5qVCY7Ix5ON9GAoZ0XwVV1xM7n3rFpgynkl5XkCppCwOgQkQs0v0qVbWmUuqAiogfOhh-q
+F::::whole site template::::http://imulus.github.io/retinajs/
+T::::write efficient css selectors::::http://csswizardry.com/2011/09/writing-efficient-css-selectors/
+T::::Non standard font::::http://www.acumensoftwaredesign.com/css/non-standard-fonts-css-tricks
+F::::site template::::https://typekit.com/
+T::::php ::::http://stackoverflow.com/questions/2138527/php-curl-http-post-sample-code
+T::::cURL login::::http://stackoverflow.com/questions/3008817/login-to-remote-site-with-php-curl
+T::::javascript add new element::::http://www.randomsnippets.com/2008/02/21/how-to-dynamically-add-form-elements-via-javascript/
+F::::ACM browse problems::::http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=3
+T::::software development life cycle::::http://en.wikipedia.org/wiki/Systems_development_life_cycle
+T::::LDAP::::http://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol
+T::::Shibboleth::::http://en.wikipedia.org/wiki/Shibboleth_(Internet2)
+T::::OpenAM::::http://en.wikipedia.org/wiki/OpenAM
+T::::MX records::::http://en.wikipedia.org/wiki/MX_record
+T::::SAN::::http://en.wikipedia.org/wiki/Storage_area_network
+T::::NAS::::http://en.wikipedia.org/wiki/Network-attached_storage
+T::::ITIL::::http://en.wikipedia.org/wiki/Information_Technology_Infrastructure_Library
+T::::PHP interview questions::::http://www.slideshare.net/vineetkumarsaini/top-100-php-interview-questions-and-answers
+T::::php interview questions::::http://careerride.com/PHP-Interview-Questions.aspx
+T::::81 PHP interview questions::::http://todaycut.com/php-interview-questions/
+T::::advanced PHP interview questions::::http://www.programmerinterview.com/index.php/php-questions/php-interview-questions-and-answers/
+T::::PHP interview questions::::http://www.geekinterview.com/Interview-Questions/Programming/PHP
+F::::Arbitrge::::http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=3&page=show_problem&problem=40
+F::::MITBBS JOBHUNTING::::http://www.mitbbs.com/bbsdoc/JobHunting.html
+T::::PHP parse DOM::::http://www.binarytides.com/php-tutorial-parsing-html-with-domdocument/
+T::::Argon Network Engineering Assistant::::http://careers.peopleclick.com/careerscp/client_argonnelab/external/jobDetails.do?functionName=getJobDetail&jobPostId=702&localeCode=en-us
+T::::Argon HPC Systems Administration Associate::::http://careers.peopleclick.com/careerscp/client_argonnelab/external/jobDetails.do?functionName=getJobDetail&jobPostId=643&localeCode=en-us
+T::::Argon HPC Systems Administration Associate::::http://careers.peopleclick.com/careerscp/client_argonnelab/external/jobDetails.do?functionName=getJobDetail&jobPostId=1946&localeCode=en-us
+F::::Leetcode::::https://oj.leetcode.com/
+F::::google chart api::::https://developers.google.com/chart/interactive/docs/gallery/calendar
+T::::俞大华嘉庆::::http://opencla.cntv.cn/20120817/VIDE100136938677.shtmlhttp://opencla.cntv.cn/20120817/VIDE100136938677.shtml
+T::::阎崇年::::http://tv.cntv.cn/videoset/C20474/page/1
+T::::entry level web developer::::http://www.aplitrak.com/?adid=dXM3MDM4OC43NjE3OS4xNTUwQG1hbnBvd2VyZm94bmEuYXBsaXRyYWsuY29t#sthash.2y8E58jq.dpbs
+F::::Bus Tracker API::::http://www.transitchicago.com/developers/bustracker.aspx
+T::::HPC books::::http://uichicago.summon.serialssolutions.com/search?s.cmd=addFacetValueFilters%28ContentType,Book+%2F+eBook%29&s.light=t&s.q=Introduction+to+High+Performance+Scientific+Computing
+T::::NetApp filter::::http://en.wikipedia.org/wiki/NetApp_filer
+T::::HPSS::::http://en.wikipedia.org/wiki/High_Performance_Storage_System
+T::::TSM::::http://en.wikipedia.org/wiki/IBM_Tivoli_Storage_Manager
+T::::File system::::http://en.wikipedia.org/wiki/File_system
+T::::disk storage::::http://en.wikipedia.org/wiki/Disk_storage
+T::::compiler::::http://en.wikipedia.org/wiki/Compiler
+T::::job Scheduler::::http://en.wikipedia.org/wiki/Job_scheduler
+T::::HPC job resources manager::::http://technet.microsoft.com/en-us/library/ff919691.aspx
+T::::NFS::::http://en.wikipedia.org/wiki/Network_File_System
+T::::clustered file system::::http://en.wikipedia.org/wiki/Clustered_file_system
+T::::PVFS::::http://en.wikipedia.org/wiki/Parallel_Virtual_File_System
+T::::Lustre::::http://en.wikipedia.org/wiki/Lustre_(file_system)
+T::::GPFS::::http://en.wikipedia.org/wiki/IBM_General_Parallel_File_System
+T::::GFS::::http://en.wikipedia.org/wiki/Google_File_System
+T::::MPI::::http://en.wikipedia.org/wiki/Message_Passing_Interface
+T::::MPICH::::http://en.wikipedia.org/wiki/MPICH
+T::::LAMS::::http://en.wikipedia.org/wiki/LAMS
+T::::Mass storage::::http://en.wikipedia.org/wiki/Mass_storage
+T::::Routing::::http://en.wikipedia.org/wiki/Routing
+T::::OSPF::::http://en.wikipedia.org/wiki/Open_Shortest_Path_First
+T::::BGP::::http://en.wikipedia.org/wiki/Border_Gateway_Protocol
+T::::MPLS::::http://en.wikipedia.org/wiki/Multiprotocol_Label_Switching
+T::::multicast::::http://en.wikipedia.org/wiki/Multicast
+T::::Myrinet::::http://en.wikipedia.org/wiki/Myrinet
+T::::Infiniband::::http://en.wikipedia.org/wiki/InfiniBand
+T::::High performance computing techniques::::https://www.cst.com/Content/Media/CST-HPC-Flyer.pdf
+T::::10 linux interview questions::::http://www.tecmint.com/useful-random-linux-interview-questions-and-answers/
+T::::30 linux interview questions::::http://www.linuxtechi.com/experience-linux-admin-interview-questions/
+T::::HPC faq::::http://www.planethpc.eu/index.php?option=com_content&view=article&id=48
+T::::SAN interview questions::::http://www.techiebird.com/SAN_FAQs.html
+T::::SAN interview questions::::http://sysadminexperts.com/san-storage/san-interview-question/
+T::::network command::::http://www.tecmint.com/linux-network-configuration-and-troubleshooting-commands/
+T::::Job scheduler::::http://en.wikipedia.org/wiki/Job_scheduler
+F::::php job::::http://jobview.monster.com/getjob.aspx?JobId=138694086&jvs=cf,can-6463,can,0&WT.mc_n=olm_sk_feed_glassdoor
+T::::/scratch::::http://llama.mshri.on.ca/scratch.html
+F::::lightbox.css::::http://lokeshdhakar.com/projects/lightbox2/
+F::::nis automounting home::::http://www.electromech.info/rhce-linux-howtos-electromech-ahemdabad-gujarat/38-automounting-home-directories-with-nis-and-nfs.html
