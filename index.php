@@ -42,89 +42,11 @@ if (isset($_POST['keyword']))
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Q's reading list</title>
 <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 		<link href="css/bootstrap-responsive.css" rel="stylesheet">
         <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script></script>
         <script src="js/bootstrap.min.js"></script>
 		<script src="js/respond.js"></script>
-        
-<style>
-*{
-	font-family:Georgia, "Times New Roman", Times, serif;
-	margin:0;
-	padding:0;	
-}
-.header {
-	padding-top:20px;
-	padding-left:30px;
-}
-.wrapper{
-	margin-top:30px;
-	float:left;	
-}
-ul {
-   list-style-type: none;
-   width:850px;	
-}
-li {
-  font: 200 15px/1.5 Helvetica, Verdana, sans-serif;
-  border-bottom: 1px solid #ccc;
-  padding-top:5px;
-  padding-left:5px;
-  float:left;
-  
-}
- 
-/*li:last-child {
-  border: none;
-}*/
-li a{
-  text-decoration: none;
-  color: #000;
-  display: block;
-  width: 200px;
-}
-li .delete a{
-   width:30px;
-}
-
-li a.readinglist {
-  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
-  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
-  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
-  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
-  transition: font-size 0.3s ease, background-color 0.3s ease;
-}
- 
-li a.readinglist:hover {
-  font-size: 20px;
-  background: #f6f6f6;
-}
-li span{
-  font-size: 10px;	
-}
-.clearline{
-   clear:both;	
-}
-/* div right panel */
-.rightpanel{
-   float:left;
-   padding-top:30px;
-   width:auto;
-}
-.rightpanel textarea{
-	width:100%;	
-	resize:vertical; max-height:1000px; min-height:500px;
-}
-#fileSelect{
-	position:absolute;
-	top:10px;
-	right:20px;	
-}
-#new{
-	position:absolute;
-	top:10px; right:150px;	
-}
-</style>
 </head>
 
 <body onload="javascript:document.forms['myForm']['url'].focus()">
