@@ -1,5 +1,5 @@
 <?php
-	require_once('class.php');
+	require_once('lib\\class.php');
 	 $filename=$_GET['q'];
 	 setcookie('filename',$filename,time()+84000);
 	 $j=new Collection($filename);
