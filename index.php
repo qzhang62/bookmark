@@ -4,6 +4,8 @@
 // Aug 10,2014
 // Description: By reading txt file, get a reading list(web link) 
 include "lib\\class.php";
+include "lib\\config.php";
+include "lib\\helper.php";
 if(!isset($_COOKIE['filename'])){
 	setcookie("filename","default.txt",time()+840000);
 }
