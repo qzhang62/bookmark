@@ -1,3 +1,4 @@
+<?php require_once "lib\\class.php";?>
 <html>
 <head>
 <script>
@@ -27,7 +28,9 @@ function showResult(str) {
 	  
     }
   }
-  xmlhttp.open("GET","liveSearchAx.php?q="+str,true);
+  var e = document.getElementById("fileSelect");
+  var strFile = e.options[e.selectedIndex].text;
+  xmlhttp.open("GET","liveSearchAx.php?q="+str+"&file="+strFile,true);
   xmlhttp.send();
 }
 function hello(e){
@@ -42,7 +45,21 @@ function hello(e){
 
 <form>
 <input type="text" size="30" id="searchBox" onKeyup="showResult(this.value)">
+  <select id="fileSelect">
+  <?php
+  $dir = DIR;
+  $files1 = scandir($dir);
+  foreach($files1 as $file){
+    if($file==='.' || $file==='..') continue;
+    if($file===$_COOKIE['filename']){
+      echo "<option value='$file' selected>$file</option>";
+    }else{
+      echo "<option value='$file'>$file</option>";}
+  }
+  ?>
+  </select>
 <div id="livesearch"></div>
+
 </form>
 </body>
 <script type="text/javascript">

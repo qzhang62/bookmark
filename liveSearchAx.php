@@ -1,7 +1,8 @@
 <?php
 include "lib\\class.php";
 $q=$_GET["q"];
-$j=new Collection("default.txt");
+$file=$_GET["file"];
+$j=new Collection($file);
 //$j->output1();
 $res=$j->find($q);
 if(count($res)===0) {echo " ";exit;}
