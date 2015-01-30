@@ -1,5 +1,5 @@
 <?php
-include "class.php";
+include "lib\\class.php";
 $q=$_GET["q"];
 $j=new Collection("default.txt");
 //$j->output1();

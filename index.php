@@ -52,6 +52,7 @@ if (isset($_POST['keyword']))
 
 <body onload="javascript:document.forms['myForm']['url'].focus()">
 <div class="header">
+  <div><a href="liveSearch.php">Search</a></div>
 <form action="index.php" method="post" onsubmit="return validateForm()" name="myForm">
 Description: <input type="text" name="name" id="name" onkeypress="goToURL(event)">
 URL: <input type="text" name="url" id="url" placeholder="Press F7 to get focus" onkeypress="goToName(event)">
