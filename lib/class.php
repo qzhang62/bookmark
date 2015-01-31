@@ -80,7 +80,7 @@ class Collection{
 			//echo $fields[0]."<br>";
 			if( $fields[0]=="F")
 			{
-				echo "<li><a href='$fields[2]' target='_blank' class='readinglist'>$fields[1]</a>   <span class='delete'><a href='index.php?delete_id=$i'>Delete</a></span></li>";
+				echo "<li><a href='$fields[2]' target='_blank' class='readinglist'>$fields[1]</a>   <span class='delete'><a href='index.php?delete_id=$i'>Delete</a><a href='index.php?rename_id=$i'>Rename</a></span></li>";
 			}
 			$i++;
 		}
@@ -109,6 +109,28 @@ class Collection{
 		}
 		file_put_contents($fullPath,$file_content);
 		fclose($fh);	
+	}
+	function renameItem($id,$name="no name"){
+		$fullPath=DIR.$this->filename;
+		$fh = @fopen($fullPath, "r+");
+		$line_id=$id;
+		$file_content='';
+		$i=1;
+		while(!feof($fh)) {
+			if($i==$line_id){
+				$tmp=fgets($fh);
+				$pieces=explode(DELIMITER,$tmp);
+				$pieces[1]=$name;
+				$tmp=implode(DELIMITER,$pieces);
+				$file_content.=$tmp;
+			}
+			else{
+				$file_content.=fgets($fh);
+			}
+			$i++;
+		}
+		file_put_contents($fullPath,$file_content);
+		fclose($fh);
 	}
 	function addItem($url,$description)
 	{

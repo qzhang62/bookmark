@@ -29,6 +29,11 @@ if (isset($_GET['delete_id'])){
 	$default->hideItem($_GET['delete_id']);
 	header('location:index.php');
 }
+// Dealing with rename line
+if (isset($_GET['rename_id'])){
+  $default->renameItem($_GET['rename_id']);
+  header('location:index.php');
+}
 // dealing with keyword.txt file, writing
 if (isset($_POST['keyword']))
 {
