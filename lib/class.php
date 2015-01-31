@@ -80,7 +80,7 @@ class Collection{
 			//echo $fields[0]."<br>";
 			if( $fields[0]=="F")
 			{
-				echo "<li><a href='$fields[2]' target='_blank' class='readinglist'>$fields[1]</a>   <span class='delete'> <a href='../index.php?delete_id=$i'>Delete</a></span></li>";
+				echo "<li><a href='$fields[2]' target='_blank' class='readinglist'>$fields[1]</a>   <span class='delete'><a href='index.php?delete_id=$i'>Delete</a></span></li>";
 			}
 			$i++;
 		}
