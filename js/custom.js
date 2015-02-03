@@ -84,7 +84,12 @@ function showResult(str) {
 
         }
     }
-    xmlhttp.open("GET","getContent.php?q="+this.value,true);
+    var e=document.getElementById("fileSelect");
+    var filename= e.options[e.selectedIndex].value;
+    var showHidden=document.getElementById("showHidden").checked;
+    console.log("getContent.php?q="+filename+"&showHidden="+showHidden);
+    xmlhttp.open("GET","getContent.php?q="+filename+"&showHidden="+showHidden,true);
     xmlhttp.send();
 }
 document.getElementById('fileSelect').onchange=showResult;
+document.getElementById('showHidden').onchange=showResult;

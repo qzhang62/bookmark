@@ -62,6 +62,7 @@ if (isset($_POST['keyword']))
 Description: <input type="text" name="name" id="name" onkeypress="goToURL(event)">
 URL: <input type="text" name="url" id="url" placeholder="Press F7 to get focus" onkeypress="goToName(event)">
 <input type="submit" class="btn btn-primary">
+  <input type="checkbox" id="showHidden">Show Hidden<br />
 <select id="fileSelect" name="fileSelect">
 <?php
 $dir = DIR;
