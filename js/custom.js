@@ -87,7 +87,6 @@ function showResult(str) {
     var e=document.getElementById("fileSelect");
     var filename= e.options[e.selectedIndex].value;
     var showHidden=document.getElementById("showHidden").checked;
-    console.log("getContent.php?q="+filename+"&showHidden="+showHidden);
     xmlhttp.open("GET","getContent.php?q="+filename+"&showHidden="+showHidden,true);
     xmlhttp.send();
 }

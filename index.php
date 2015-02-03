@@ -49,7 +49,6 @@ if (isset($_POST['keyword']))
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Q's reading list</title>
 <link href="css/bootstrap.min.css" rel="stylesheet">    <link href="css/style.css" rel="stylesheet">
-		<link href="css/bootstrap-responsive.css" rel="stylesheet">
         <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script></script>
         <script src="js/bootstrap.min.js"></script>
 		<script src="js/respond.js"></script>
