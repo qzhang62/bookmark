@@ -71,15 +71,20 @@ class Collection{
 	{
 		var_dump($this->items);	
 	}
-	function niceOutput(){
+	function niceOutput($all=0){
+		// $all=0	only print line with field[0]=F
+		// $all=1	only print line with field[0]=T
+		// $all=2	print all line
 		$handle = @fopen(DIR.$this->filename, "r");
 		echo "<ul>";
 		$i=1;
 		while (($buffer = fgets($handle, 4096)) !== false) {
-			$fields=explode("::::",$buffer);
+			$fields = explode("::::", $buffer);
 			//echo $fields[0]."<br>";
-			if( $fields[0]=="F")
-			{
+			if ($fields[0] == "F" and ($all===0 or $all===2)) {
+				echo "<li><a href='$fields[2]' target='_blank' class='readinglist'>$fields[1]</a>   <span class='delete'><a href='index.php?delete_id=$i'>Delete</a><a href='index.php?rename_id=$i'>Rename</a></span></li>";
+			}
+			if ($fields[0] == "T" and ($all===1 or $all===2)) {
 				echo "<li><a href='$fields[2]' target='_blank' class='readinglist'>$fields[1]</a>   <span class='delete'><a href='index.php?delete_id=$i'>Delete</a><a href='index.php?rename_id=$i'>Rename</a></span></li>";
 			}
 			$i++;
