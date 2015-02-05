@@ -1,5 +1,5 @@
 <?php
-require_once('class.php');
+require_once('lib/class.php');
 if(isset($_GET['filename'])){
 	if(!file_exists(DIR.$_GET['filename'])){
 		$fh=fopen(DIR.$_GET['filename'],'w');

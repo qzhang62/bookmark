@@ -55,6 +55,9 @@ textarea{
 .inline{
     display: inline;
 }
-.right *{
-    float:right;
+#row1{
+    margin-bottom:20px;
+}
+#subBtn{
+    margin-top:10px;
 }

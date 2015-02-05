@@ -56,31 +56,30 @@ if (isset($_POST['keyword']))
 
 <body onload="javascript:document.forms['myForm']['url'].focus()">
 <div class="container">
-<div class="row">
-  <div class="col-lg-8">
+<div class="row" id="row1">
+  <div class="col-lg-9">
     <form action="index.php" method="post" class="form-inline" onsubmit="return validateForm()" name="myForm">
     <label class="control-label">Description: <input type="text" name="name" class="form-control" id="name" onkeypress="goToURL(event)"></label>
       <label class="control-label">URL: <input type="text" name="url" class="form-control" id="url" placeholder="Press F7 to get focus" onkeypress="goToName(event)"></label>
     <input type="submit" class="btn btn-primary btn-md">
+      <select id="fileSelect" name="fileSelect" class="form-control">
+        <?php
+        $dir = DIR;
+        $files1 = scandir($dir);
+        foreach($files1 as $file){
+          if($file==='.' || $file==='..') continue;
+          if($file===$_COOKIE['filename']){
+            echo "<option value='$file' selected>$file</option>";
+          }else{
+            echo "<option value='$file'>$file</option>";}
+        }
+        ?>
+      </select>
       <label class="control-label"><input type="checkbox" id="showHidden">Show Hidden</label>
   </div>
-  <div class="col-lg-4 right">
-    <select id="fileSelect" name="fileSelect">
-    <?php
-    $dir = DIR;
-    $files1 = scandir($dir);
-    foreach($files1 as $file){
-        if($file==='.' || $file==='..') continue;
-        if($file===$_COOKIE['filename']){
-            echo "<option value='$file' selected>$file</option>";
-            }else{
-        echo "<option value='$file'>$file</option>";}
-    }
-    ?>
-    </select>
-
+  <div class="col-lg-3">
     </form>
-          <a href="#" id="new" class="btn btn-xs btn-default" data-toggle="modal" data-target="#smallModal">New</a>
+          <a href="#" id="new" class="btn btn-md btn-default" data-toggle="modal" data-target="#smallModal">New</a>
 
     <div class="modal fade" id="smallModal" tabindex="-1" role="dialog" aria-labelledby="smallModal" aria-hidden="true">
       <div class="modal-dialog modal-sm">
@@ -102,7 +101,7 @@ if (isset($_POST['keyword']))
         </div>
       </div>
     </div>
-    <div class="inline"><a href="liveSearch.php" class="btn btn-default btn-xs">Search</a></div>
+    <div class="inline"><a href="liveSearch.php" class="btn btn-default btn-md">Search</a></div>
   </div>
 </div> <!-- end of row 1 -->
 <div class="row">
@@ -120,7 +119,7 @@ if (isset($_POST['keyword']))
       <div>
         <textarea id="keyword" name="keyword" class="form-control" rows="20"><?php echo $keywordContent; ?></textarea>
       </div>
-      <input type="submit" class="btn btn-primary btn-xs btn-block">
+      <input type="submit" class="btn btn-primary btn-md btn-block" id="subBtn">
       </form>
     </div>
   <script type="text/javascript" src="js/custom.js"></script>
