@@ -55,6 +55,7 @@ if (isset($_POST['keyword']))
 </head>
 
 <body onload="javascript:document.forms['myForm']['url'].focus()">
+<div class="container">
 <div class="header">
   <div><a href="liveSearch.php">Search</a></div>
 <form action="index.php" method="post" onsubmit="return validateForm()" name="myForm">
@@ -118,6 +119,7 @@ foreach($files1 as $file){
 <input type="submit" class="btn btn-primary">
 </form>
 <script type="text/javascript" src="js/custom.js"></script>
+</div>
 </div>
 </body>
 </html>
