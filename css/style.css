@@ -60,3 +60,9 @@ textarea{
 .btn-inline{
     width:1.8em;
 }
+#removeItem{
+    color:darkred;
+}
+#renameItem{
+    color:orange;
+}
