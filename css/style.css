@@ -24,19 +24,15 @@ li {
 li a{
     text-decoration: none;
     color: #000;
-    display: block;
     width: 200px;
 }
-li .delete a{
-    width:30px;
-}
-
 li a.readinglist {
     -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
     -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
     -o-transition: font-size 0.3s ease, background-color 0.3s ease;
     -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
     transition: font-size 0.3s ease, background-color 0.3s ease;
+    display: block;
 }
 li a.readinglist:hover {
     font-size: 20px;

@@ -82,10 +82,10 @@ class Collection{
 			$fields = explode("::::", $buffer);
 			//echo $fields[0]."<br>";
 			if ($fields[0] == "F" and ($all===0 or $all===2)) {
-				echo "<li class='col-lg-3'><a href='$fields[2]' target='_blank' class='readinglist'>$fields[1]</a>   <span class='delete'><a href='index.php?delete_id=$i'>Delete</a><a href='index.php?rename_id=$i'>Rename</a></span></li>";
+				echo "<li class='col-lg-3'><a href='$fields[2]' target='_blank' class='readinglist'>$fields[1]</a>   <span class='delete'><a href='index.php?delete_id=$i'><span class='glyphicon glyphicon-remove'></span></a><a href='index.php?rename_id=$i'><span class='glyphicon glyphicon-registration-mark'></a></span></li>";
 			}
 			if ($fields[0] == "T" and ($all===1 or $all===2)) {
-				echo "<li class='col-lg-3'><a href='$fields[2]' target='_blank' class='readinglist col--10'>$fields[1]</a>   <span class='delete'><a href='index.php?delete_id=$i'>Delete</a><a href='index.php?rename_id=$i'>Rename</a></span></li>";
+				echo "<li class='col-lg-3'><a href='$fields[2]' target='_blank' class='readinglist'>$fields[1]</a>   <span class='delete'><a href='index.php?delete_id=$i'><span class='glyphicon glyphicon-remove'></span></a><a href='index.php?rename_id=$i'><span class='glyphicon glyphicon-registration-mark'></span></span></a></span></li>";
 			}
 			$i++;
 		}
