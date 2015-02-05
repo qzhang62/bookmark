@@ -92,3 +92,4 @@ function showResult(str) {
 }
 document.getElementById('fileSelect').onchange=showResult;
 document.getElementById('showHidden').onchange=showResult;
+$('.showTip').tooltip();    // show tips for remove and rename
