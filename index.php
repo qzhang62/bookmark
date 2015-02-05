@@ -57,69 +57,77 @@ if (isset($_POST['keyword']))
 <body onload="javascript:document.forms['myForm']['url'].focus()">
 <div class="container">
 <div class="row">
-  <div><a href="liveSearch.php">Search</a></div>
-<form action="index.php" method="post" onsubmit="return validateForm()" name="myForm">
-Description: <input type="text" name="name" id="name" onkeypress="goToURL(event)">
-URL: <input type="text" name="url" id="url" placeholder="Press F7 to get focus" onkeypress="goToName(event)">
-<input type="submit" class="btn btn-primary">
-  <input type="checkbox" id="showHidden">Show Hidden<br />
-<select id="fileSelect" name="fileSelect">
-<?php
-$dir = DIR;
-$files1 = scandir($dir);
-foreach($files1 as $file){
-	if($file==='.' || $file==='..') continue;
-	if($file===$_COOKIE['filename']){
-		echo "<option value='$file' selected>$file</option>";
-		}else{
-	echo "<option value='$file'>$file</option>";}	
-}
-?>
-</select>
+  <div class="col-lg-8">
+    <form action="index.php" method="post" onsubmit="return validateForm()" name="myForm">
+    Description: <input type="text" name="name" id="name" onkeypress="goToURL(event)">
+    URL: <input type="text" name="url" id="url" placeholder="Press F7 to get focus" onkeypress="goToName(event)">
+    <input type="submit" class="btn btn-primary btn-xs">
+      <input type="checkbox" id="showHidden">Show Hidden
+  </div>
+  <div class="col-lg-4">
+    <select id="fileSelect" name="fileSelect">
+    <?php
+    $dir = DIR;
+    $files1 = scandir($dir);
+    foreach($files1 as $file){
+        if($file==='.' || $file==='..') continue;
+        if($file===$_COOKIE['filename']){
+            echo "<option value='$file' selected>$file</option>";
+            }else{
+        echo "<option value='$file'>$file</option>";}
+    }
+    ?>
+    </select>
 
-</form>
-      <a href="#" id="new" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#smallModal">New</a>
- 
-<div class="modal fade" id="smallModal" tabindex="-1" role="dialog" aria-labelledby="smallModal" aria-hidden="true">
-  <div class="modal-dialog modal-sm">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="myModalLabel">Add New List</h4>
+    </form>
+          <a href="#" id="new" class="btn btn-xs btn-danger" data-toggle="modal" data-target="#smallModal">New</a>
+
+    <div class="modal fade" id="smallModal" tabindex="-1" role="dialog" aria-labelledby="smallModal" aria-hidden="true">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">Add New List</h4>
+          </div>
+          <form action="addList.php">
+          <div class="modal-body">
+           <label>Filename:</label> <input type="text" name="filename" />
+          </div>
+          <div class="modal-footer">
+          <input type="submit" />
+            <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary">Save changes</button>-->
+          </div>
+          </form>
+        </div>
       </div>
-      <form action="addList.php">
-      <div class="modal-body">
-       <label>Filename:</label> <input type="text" name="filename" />
+    </div>
+    <div><a href="liveSearch.php" class="btn btn-default btn-xs">Search</a></div>
+  </div>
+</div> <!-- end of row 1 -->
+<div class="row">
+  <div class="col-lg-8 col-md-8" id="wrapper">
+  <?php
+      $default->niceOutput();
+  ?>
+  </div>
+  <div class="col-lg-3 col-md-3 col-lg-offset-1 col-md-offset-1">
+  <?php
+      $keywordContent=file_get_contents($keywordfile);
+  ?>
+    <div class="panel panel-primary"></div>
+      <form action="index.php" method="post" name="keywordForm">
+      <div>
+        <textarea class="keyword" id="keyword" name="keyword">
+      <?php echo $keywordContent; ?>
+      </textarea>
       </div>
-      <div class="modal-footer">
-      <input type="submit" />
-        <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="submit" class="btn btn-primary">Save changes</button>-->
-      </div>
+      <input type="submit" class="btn btn-primary btn-xs btn-block">
       </form>
     </div>
+  <script type="text/javascript" src="js/custom.js"></script>
   </div>
-</div>
-</div> <!-- end of row 1 -->
-
-<div class="wrapper" id="wrapper">
-<?php 
-	$default->niceOutput();
-?>
-</div>
-<div class="rightpanel">
-<?php
-	$keywordContent=file_get_contents($keywordfile);
-?>
-<form action="index.php" method="post" name="keywordForm">
-
-<textarea class="keyword" id="keyword" name="keyword">
-<?php echo $keywordContent; ?>
-</textarea>
-<input type="submit" class="btn btn-primary">
-</form>
-<script type="text/javascript" src="js/custom.js"></script>
-</div>
+</div> <!-- end of row 2 -->
 </div>
 </body>
 </html>

@@ -3,9 +3,11 @@
     margin:0;
     padding:0;
 }
+body{
+    padding-top:20px;
+}
 ul {
     list-style-type: none;
-    width:850px;
 }
 li {
     font: 200 15px/1.5 Helvetica, Verdana, sans-serif;
@@ -42,6 +44,9 @@ li a.readinglist:hover {
 }
 li span{
     font-size: 10px;
+}
+textarea{
+    width:100%;
 }
 .clearline{
     clear:both;
