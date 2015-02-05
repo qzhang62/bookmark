@@ -58,13 +58,13 @@ if (isset($_POST['keyword']))
 <div class="container">
 <div class="row">
   <div class="col-lg-8">
-    <form action="index.php" method="post" onsubmit="return validateForm()" name="myForm">
-    Description: <input type="text" name="name" id="name" onkeypress="goToURL(event)">
-    URL: <input type="text" name="url" id="url" placeholder="Press F7 to get focus" onkeypress="goToName(event)">
-    <input type="submit" class="btn btn-primary btn-xs">
-      <input type="checkbox" id="showHidden">Show Hidden
+    <form action="index.php" method="post" class="form-inline" onsubmit="return validateForm()" name="myForm">
+    <label class="control-label">Description: <input type="text" name="name" class="form-control" id="name" onkeypress="goToURL(event)"></label>
+      <label class="control-label">URL: <input type="text" name="url" class="form-control" id="url" placeholder="Press F7 to get focus" onkeypress="goToName(event)"></label>
+    <input type="submit" class="btn btn-primary btn-md">
+      <label class="control-label"><input type="checkbox" id="showHidden">Show Hidden</label>
   </div>
-  <div class="col-lg-4">
+  <div class="col-lg-4 right">
     <select id="fileSelect" name="fileSelect">
     <?php
     $dir = DIR;
@@ -80,7 +80,7 @@ if (isset($_POST['keyword']))
     </select>
 
     </form>
-          <a href="#" id="new" class="btn btn-xs btn-danger" data-toggle="modal" data-target="#smallModal">New</a>
+          <a href="#" id="new" class="btn btn-xs btn-default" data-toggle="modal" data-target="#smallModal">New</a>
 
     <div class="modal fade" id="smallModal" tabindex="-1" role="dialog" aria-labelledby="smallModal" aria-hidden="true">
       <div class="modal-dialog modal-sm">
@@ -102,7 +102,7 @@ if (isset($_POST['keyword']))
         </div>
       </div>
     </div>
-    <div><a href="liveSearch.php" class="btn btn-default btn-xs">Search</a></div>
+    <div class="inline"><a href="liveSearch.php" class="btn btn-default btn-xs">Search</a></div>
   </div>
 </div> <!-- end of row 1 -->
 <div class="row">
@@ -118,9 +118,7 @@ if (isset($_POST['keyword']))
     <div class="panel panel-primary"></div>
       <form action="index.php" method="post" name="keywordForm">
       <div>
-        <textarea class="keyword" id="keyword" name="keyword">
-      <?php echo $keywordContent; ?>
-      </textarea>
+        <textarea id="keyword" name="keyword" class="form-control" rows="20"><?php echo $keywordContent; ?></textarea>
       </div>
       <input type="submit" class="btn btn-primary btn-xs btn-block">
       </form>
