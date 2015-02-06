@@ -31,7 +31,7 @@ if (isset($_GET['delete_id'])){
 }
 // Dealing with rename line
 if (isset($_GET['rename_id'])){
-  $default->renameItem($_GET['rename_id']);
+  $default->renameItem($_GET['rename_id'],$_GET['name']);
   header('location:index.php');
 }
 // dealing with keyword.txt file, writing
@@ -109,6 +109,27 @@ if (isset($_POST['keyword']))
   <?php
       $default->niceOutput();
   ?>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="renameModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Rename Item</h4>
+        </div>
+        <form action="index.php">
+        <div class="modal-body">
+          <input type="text" name="rename_id">
+          <input type="text" name="name">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-primary">Save changes</button>
+        </div>
+        </form>
+      </div>
+    </div>
   </div>
   <div class="col-lg-3 col-md-3 col-lg-offset-1 col-md-offset-1">
   <?php
