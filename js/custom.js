@@ -93,3 +93,9 @@ function showResult(str) {
 document.getElementById('fileSelect').onchange=showResult;
 document.getElementById('showHidden').onchange=showResult;
 $('.showTip').tooltip();    // show tips for remove and rename
+$('#renameModal').on('show.bs.modal', function (event) {
+    var button = $(event.relatedTarget);
+    var recipient = button.data('id');
+    var modal = $(this)
+    modal.find('.modal-body input:first').val(recipient);
+})

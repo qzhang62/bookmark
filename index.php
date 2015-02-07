@@ -105,7 +105,7 @@ if (isset($_POST['keyword']))
   </div>
 </div> <!-- end of row 1 -->
 <div class="row">
-  <div class="col-lg-8 col-md-8" id="wrapper">
+  <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12" id="wrapper">
   <?php
       $default->niceOutput();
   ?>
@@ -120,7 +120,7 @@ if (isset($_POST['keyword']))
         </div>
         <form action="index.php">
         <div class="modal-body">
-          <input type="text" name="rename_id">
+          <input type="hidden" name="rename_id">
           <input type="text" name="name">
         </div>
         <div class="modal-footer">
