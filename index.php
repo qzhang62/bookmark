@@ -107,8 +107,18 @@ if (isset($_POST['keyword']))
       </div>
     </div>
     <div class="inline"><a href="liveSearch.php" class="btn btn-default btn-md">Search</a></div>
-    <a href="index.php?save=1" class="btn btn-default">save</a>
-    <a href="index.php?xml=1" class="btn btn-default">xml</a>
+    <!-- Split button -->
+    <div class="btn-group">
+      <a class="btn btn-default btn-md" href="index.php?save=1">txt</a>
+      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+        <span class="caret"></span>
+        <span class="sr-only">Toggle Dropdown</span>
+      </button>
+      <ul class="dropdown-menu" role="menu">
+        <li><a href="index.php?save=1" class="btn btn-default">save</a></li>
+        <li><a href="index.php?xml=1" class="btn btn-default">xml</a></li>
+      </ul>
+    </div>
   </div>
 </div> <!-- end of row 1 -->
 <div class="row">
