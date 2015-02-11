@@ -97,10 +97,28 @@ class Collection{
 		}
 	function saveToTxt(){	// save current collection to a txt file
 		$text=file_get_contents(DIR.$this->filename);
-		$filename=$this->filename;
+		$filename=$this->filename+".xml";
 		header("Content-type: application/text");
 		header("Content-Disposition: attachment; filename=\"$filename\"");
 		die($text);
+		header("location:index.php");
+	}
+	function saveToXML(){	// save current collection to a xml file
+		$str='<collection>';
+		foreach($this->items as $item){
+			$str.="<item>";
+			$str.="<show>$item[0]</show>";
+			$str.="<description>".htmlspecialchars($item[1])."</description>";
+			$str.="<url>".htmlspecialchars($item[2])."</url>";
+			$str.="</item>";
+		}
+		$str.='</collection>';
+		$xml = new SimpleXMLElement($str);
+		$filename=$this->filename.".xml";
+		header('Content-Type: text/xml');
+		header('Content-Disposition: attachment; filename="'.$filename.'"');
+		header('Content-Transfer-Encoding: binary');
+		die($xml->asXML());
 		header("location:index.php");
 	}
 	function hideItem($id){

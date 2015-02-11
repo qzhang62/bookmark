@@ -23,8 +23,11 @@ if (isset($_POST['name']))
 	$default->addItem($url,$description);
 	header('location:index.php');
 }
-if(isset($_GET['save'])&&$_GET['save']==1){
+if(isset($_GET['save'])&&$_GET['save']==1){ // save to text file
   $default->saveToTxt();
+}
+if(isset($_GET['xml'])&&$_GET['xml']==1){  // save to xml file
+  $default->saveToXML();
 }
 // Dealing with delete line by making the first character in the line "T" (meaning read)
 if (isset($_GET['delete_id'])){
@@ -105,6 +108,7 @@ if (isset($_POST['keyword']))
     </div>
     <div class="inline"><a href="liveSearch.php" class="btn btn-default btn-md">Search</a></div>
     <a href="index.php?save=1" class="btn btn-default">save</a>
+    <a href="index.php?xml=1" class="btn btn-default">xml</a>
   </div>
 </div> <!-- end of row 1 -->
 <div class="row">
