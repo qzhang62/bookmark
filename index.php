@@ -23,7 +23,9 @@ if (isset($_POST['name']))
 	$default->addItem($url,$description);
 	header('location:index.php');
 }
-
+if(isset($_GET['save'])&&$_GET['save']==1){
+  $default->saveToTxt();
+}
 // Dealing with delete line by making the first character in the line "T" (meaning read)
 if (isset($_GET['delete_id'])){
 	$default->hideItem($_GET['delete_id']);
@@ -102,6 +104,7 @@ if (isset($_POST['keyword']))
       </div>
     </div>
     <div class="inline"><a href="liveSearch.php" class="btn btn-default btn-md">Search</a></div>
+    <a href="index.php?save=1" class="btn btn-default">save</a>
   </div>
 </div> <!-- end of row 1 -->
 <div class="row">

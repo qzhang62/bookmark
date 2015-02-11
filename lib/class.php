@@ -95,6 +95,14 @@ class Collection{
 		}
 		fclose($handle);	
 		}
+	function saveToTxt(){	// save current collection to a txt file
+		$text=file_get_contents(DIR.$this->filename);
+		$filename=$this->filename;
+		header("Content-type: application/text");
+		header("Content-Disposition: attachment; filename=\"$filename\"");
+		die($text);
+		header("location:index.php");
+	}
 	function hideItem($id){
 		$fullPath=DIR.$this->filename;
 		$fh = @fopen($fullPath, "r+");
