@@ -1,4 +1,4 @@
-<?php require_once "lib\\class.php";?>
+<?php require_once "lib/class.php";?>
 <html>
 <head>
 <script>

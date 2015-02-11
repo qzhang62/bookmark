@@ -1,5 +1,5 @@
 <?php
-	require_once('lib\\class.php');
+	require_once('lib/class.php');
 	$showHidden=0;
 	if(isset($_GET['showHidden']) && $_GET['showHidden']==="true"){
 		$showHidden=2;

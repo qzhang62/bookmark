@@ -1,5 +1,5 @@
 <?php
-include "lib\\class.php";
+include "lib/class.php";
 $q=$_GET["q"];
 $file=$_GET["file"];
 $j=new Collection($file);
