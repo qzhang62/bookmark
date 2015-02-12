@@ -67,3 +67,11 @@ textarea{
 #renameItem{
     color:orange;
 }
+.dropdown-menu li{
+    border-bottom: 0px solid #000000;
+    margin:0px;
+    padding:0px;
+}
+.dropdown-toggle{
+    height:34px;
+}
