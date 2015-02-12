@@ -115,8 +115,8 @@ if (isset($_POST['keyword']))
         <span class="sr-only">Toggle Dropdown</span>
       </button>
       <ul class="dropdown-menu" role="menu">
-        <li><a href="index.php?save=1" class="btn btn-default">save</a></li>
-        <li><a href="index.php?xml=1" class="btn btn-default">xml</a></li>
+        <li><a href="index.php?save=1">save</a></li>
+        <li><a href="index.php?xml=1">xml</a></li>
       </ul>
     </div>
   </div>
