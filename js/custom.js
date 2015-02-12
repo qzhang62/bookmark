@@ -96,6 +96,8 @@ $('.showTip').tooltip();    // show tips for remove and rename
 $('#renameModal').on('show.bs.modal', function (event) {
     var button = $(event.relatedTarget);
     var recipient = button.data('id');
+    var title=button.data('title');
     var modal = $(this)
     modal.find('.modal-body input:first').val(recipient);
+    modal.find('.modal-body input:last').val(title);
 })
