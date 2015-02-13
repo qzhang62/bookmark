@@ -1,0 +1,2 @@
+﻿F::::google::::https://www.google.com/?gws_rd=ssl
+F::::google::::https://www.google.com/?gws_rd=ssl
