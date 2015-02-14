@@ -152,13 +152,16 @@ if (isset($_POST['keyword']))
   <?php
       $keywordContent=file_get_contents($keywordfile);
   ?>
-    <div class="panel panel-primary"></div>
+    <div class="panel panel-info">
+      <div class="panel-heading">Extra Note</div>
+      <div class="panel-body">
       <form action="index.php" method="post" name="keywordForm">
       <div>
         <textarea id="keyword" name="keyword" class="form-control" rows="20"><?php echo $keywordContent; ?></textarea>
       </div>
       <input type="submit" class="btn btn-primary btn-md btn-block" id="subBtn">
       </form>
+        </div>
     </div>
   <script type="text/javascript" src="js/custom.js"></script>
   </div>
