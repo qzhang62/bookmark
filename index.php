@@ -147,6 +147,7 @@ if (isset($_POST['keyword']))
       </div>
     </div>
   </div>
+  <div class="clearfix hidden-lg"></div>
   <div class="col-lg-3 col-md-3 col-lg-offset-1 col-md-offset-1">
   <?php
       $keywordContent=file_get_contents($keywordfile);
