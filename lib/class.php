@@ -104,7 +104,8 @@ class Collection{
 		header("location:index.php");
 	}
 	function saveToXML(){	// save current collection to a xml file
-		$str='<collection>';
+		$str='<collections>';
+		$str.='<collection>';
 		foreach($this->items as $item){
 			$str.="<item>";
 			$str.="<show>$item[0]</show>";
@@ -113,6 +114,7 @@ class Collection{
 			$str.="</item>";
 		}
 		$str.='</collection>';
+		$str.='</collections>';
 		$xml = new SimpleXMLElement($str);
 		$filename=$this->filename.".xml";
 		header('Content-Type: text/xml');
